@@ -5,7 +5,6 @@ Description: "依據合約院所上傳檢驗報告（Bundle Request Reporting NI
 Usage: #example
 * type = #batch
 * timestamp = "2020-01-01T10:00:00+08:00"
-* signature = "MDQxMjA0MDAxMjpISVNLZXlJZA=="
 
 * entry[0].fullUrl = "https://twniis.cdc.gov.tw/twniis/DiagnosticReport/diagnosticreport-id-min"
 * entry[0].resource = diagnosticreport-id-min
