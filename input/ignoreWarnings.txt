@@ -1,0 +1,28 @@
+== Suppressed Messages ==
+
+# 提醒 slice 的 pattern 寫法將於 R5 版本不再支援，不影響驗證。(INFORMATION 後方的藍色字樣 (1 uses) 是指此 INFORMATION 在此 Profile 中有被使用到）
+% The discriminator type 'pattern' is deprecated in R5%
+
+# 建議使用 OID，但目前暫無需求，不影響驗證
+% have an OID%
+
+# 最新版本的代碼不齊全，無法直接繼承，故先繼續使用 0.3.2 版
+% The ImplementationGuide uses package tw.gov.mohw.twcore#0.3.2%
+
+# Patient.identifier / Patient.name 採「多型擇一」設計：容器上限 1 為刻意限制，底下沿用父 profile 的多個 slice（身分證／護照／居留證等）僅供擇一，不影響驗證
+% but the slices add up to a maximum of %
+
+# Validator 做 slice matching 的診斷訊息；此元素本來就不是要 match 該 slice，不影響驗證
+% This element does not match any known slice defined in the profile %
+
+# NIIS 規格採本 IG 自訂代碼系統，未強制使用 LOINC，不影響驗證
+% None of the codings provided are in the value set 'LOINC%
+
+# 建議Observation皆須要填寫performer，但此專案情境不需要
+% Best Practice Recommendation: In general, all observations should have a performer%
+
+
+# Publisher自動選擇代碼系統版本，不影響驗證。
+% Pinned the version of %
+% The extension http://hl7.org/fhir/StructureDefinition/regex|%
+% The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|%

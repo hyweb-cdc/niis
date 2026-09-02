@@ -1,0 +1,22 @@
+@startuml
+autonumber
+
+skinparam sequence {
+ArrowColor gray
+ActorBorderColor gray
+LifeLineBorderColor black
+}
+skinparam shadowing false
+hide footbox
+
+participant 合約院所 #d1ebf1
+participant NIIS系統  #cadaa9
+合約院所 -> NIIS系統: 多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果
+
+alt 上傳成功
+    NIIS系統 -> 合約院所: 回覆多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果成功訊息
+else 上傳失敗
+    NIIS系統 -> 合約院所:  回覆多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果失敗訊息
+    合約院所 -> 合約院所: 異常資料修正
+end
+@enduml
