@@ -2,8 +2,12 @@
 以下為本IG使用到的所有Profiles。
 
 ### Bundle
+#### 登錄與上傳
 - [合約院所上傳檢驗報告（Bundle Request Reporting NIIS）](StructureDefinition-bundle-request-reporting-niis.html)
-- [CDC回覆合約院所上傳/修改/刪除（Bundle Response NIIS）](StructureDefinition-bundle-response-niis.html)
+
+#### 系統回覆登錄與上傳結果
+- [上傳成功-CDC回覆合約院所上傳/修改/刪除（Bundle Response NIIS）](StructureDefinition-bundle-response-niis.html)
+- [上傳失敗-系統回應訊息（OperationOutcome NIIS）](StructureDefinition-operationoutcome-niis.html)
 
 ### DiagnosticReport
 - [檢驗報告（DiagnosticReport Reporting NIIS)](StructureDefinition-diagnosticReport-reporting-niis.html)

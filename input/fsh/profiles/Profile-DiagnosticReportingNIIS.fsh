@@ -20,7 +20,7 @@ Description: "此檢驗報告（DiagnosticReport Reporting NIIS）Profile 說明
 * code.coding[TW2023ICD10PCS] 0..0
 
 * code.coding contains TWNIISObsType 1..1 MS
-* code.coding[TWNIISObsType] from TWNIISObsType (required)
+* code.coding[TWNIISObsType] from TWNIISObsTypeVS (required)
 * code.coding[TWNIISObsType] ^short = "檢驗類型，1＝德國麻疹檢驗結果｜2＝孕婦 B 肝產檢結果｜3＝麻疹檢驗結果。"
 
 * code.text 1..1 MS

@@ -29,7 +29,7 @@ Description: "此HBeAg檢驗檢查（Observation HBeAg Reporting NIIS）Profile 
 * code.coding[HBeAg].system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-hep-b-test-code-values"
 
 * method.coding.code 1..1 MS
-* method.coding.code from TWNIISObsMethod (required)
+* method.coding.code from TWNIISObsMethodVS (required)
 * method.text 0..1 MS
 * method.text ^short = "HBeAg其他檢驗方法名稱"
 * method obeys niis-hbeag-method-other

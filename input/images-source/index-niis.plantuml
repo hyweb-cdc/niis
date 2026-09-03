@@ -9,14 +9,16 @@ LifeLineBorderColor black
 skinparam shadowing false
 hide footbox
 
-participant 合約院所 #d1ebf1
-participant NIIS系統  #cadaa9
-合約院所 -> NIIS系統: 多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果
+participant "  合約院所  " as HOSP #d1ebf1
+participant "  NIIS系統  " as NIIS #cadaa9
 
-alt 上傳成功
-    NIIS系統 -> 合約院所: 回覆多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果成功訊息
-else 上傳失敗
-    NIIS系統 -> 合約院所:  回覆多筆或單筆之上傳、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果失敗訊息
-    合約院所 -> 合約院所: 異常資料修正
+HOSP -> NIIS: 多筆或單筆之新增、修改、刪除檢驗結果\n(API: UpldExamRslt；格式：Bundle Request Reporting NIIS)
+|||
+alt 情況1：200 OK
+    NIIS -> HOSP: 回覆新增、修改、刪除檢驗結果成功訊息\n(HTTP 200 OK；格式：Bundle Response NIIS)
+else 情況2：400 Bad Request
+    NIIS -> HOSP: 回覆新增、修改、刪除檢驗結果失敗訊息\n(HTTP 400 Bad Request；格式：OperationOutcome NIIS)
+    |||
+    HOSP -> HOSP: 異常資料修正
 end
 @enduml

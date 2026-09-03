@@ -10,6 +10,6 @@ Description: "此採檢單位（Organization Specimen Collection Reporting NIIS�
 * type.coding.system 1..1 MS
 * type.coding.code 1..1 MS
 * type 1..1 MS
-* type from TWNIISOrganizationType (required)
+* type from TWNIISOrganizationTypeVS (required)
 * type.coding.system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-organization-type-values"
 * type.coding.code = #SpecimenCollectionid

@@ -8,8 +8,8 @@
 依使用者實際需求，填寫申請表以傳真至(02) 2395-9832並Email電子檔(無須核章)至<a href="mailto:cdcniis2020@cdc.gov.tw">NIIS客服信箱</a>。
 申請通過後本署會給予相關 API 識別碼及合約院所識別碼給申請單位。
 
-1. <a href="doc/衛生福利部疾病管制署_NIIS-API測試上線申請表.docx">衛生福利部疾病管制署API測試上線申請表</a>
-2. <a href="doc/衛生福利部疾病管制署_NIIS-API正式上線申請表.docx">衛生福利部疾病管制署API正式上線申請表</a>
+<!--1. <a href="doc/衛生福利部疾病管制署_NIIS-API測試上線申請表.docx">衛生福利部疾病管制署API測試上線申請表</a>
+2. <a href="doc/衛生福利部疾病管制署_NIIS-API正式上線申請表.docx">衛生福利部疾病管制署API正式上線申請表</a>--> 
 
 
 ### **授權/存取控制(Authorization/Access Control)**

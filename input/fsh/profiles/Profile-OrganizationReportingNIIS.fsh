@@ -11,6 +11,6 @@ Description: "此合約院所（Organization Hosp Reporting NIIS）Profile 說�
 * type.coding.system 1..1 MS
 * type.coding.code 1..1 MS
 * type 1..1 MS
-* type from TWNIISOrganizationType (required)
+* type from TWNIISOrganizationTypeVS (required)
 * type.coding.system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-organization-type-values"
 * type.coding.code = #Hospid

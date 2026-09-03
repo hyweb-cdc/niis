@@ -40,8 +40,6 @@ Description: "全國性預防接種資訊登錄與上傳實作指引(Request)之
 * hepBAgRslt.avtStartDate 0..1 string "抗病毒藥物治療起日" "抗病毒藥物治療起日"
 
 
-
-
 Mapping: TWNIISPatient
 Id: TWNIISPatient
 Title: "Mapping to TWNIIS Patient"

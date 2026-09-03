@@ -16,7 +16,7 @@ Description: "此HepBAntibody檢驗檢查（Observation HepBAntibody Reporting N
 * code.coding[TWLaboratoryCategory] 0..0
 * code.coding 1..1 MS
 * code.coding contains HepBAntibodyOb 1..1 MS
-* code.coding[HepBAntibodyOb] from TWNIISHepBAntibodyObs (required)
+* code.coding[HepBAntibodyOb] from TWNIISHepBAntibodyObsVS (required)
 * code.coding[HepBAntibodyOb].code 1..1 MS
 * code.coding[HepBAntibodyOb].system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-hepBAntibody-obs-values"
 

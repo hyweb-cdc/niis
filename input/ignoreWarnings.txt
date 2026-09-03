@@ -21,6 +21,9 @@
 # 建議Observation皆須要填寫performer，但此專案情境不需要
 % Best Practice Recommendation: In general, all observations should have a performer%
 
+# validated無法辨識URL，不影響驗證。（WARNING後方的 藍色字樣(1uses) 是指WARNING在此Profile中有被使用到）
+% Canonical URL%
+% URL value%
 
 # Publisher自動選擇代碼系統版本，不影響驗證。
 % Pinned the version of %

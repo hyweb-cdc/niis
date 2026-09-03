@@ -12,9 +12,6 @@ Description: "此合約院所上傳檢驗報告（Bundle Request Reporting NIIS�
 * timestamp 1..1 MS 
 * timestamp ^short = "時間戳記"
 
-//* signature 1..1 MS 
-//* signature ^short = "交易檢查碼=Base64Encode({合約院所十碼章}:{HISKeyId})"
-
 * entry.request 1..1 MS
 * entry.request.method MS
 * entry.request.method ^short = "DataStatus，新增=POST、修改=PUT、刪除=DELETE"

@@ -1,12 +1,12 @@
 Instance: operationoutcome-badrequest-min
 InstanceOf: OperationOutcomeNIIS
-Title: "上傳失敗-HTTP 400 Bad Request-OperationOutcome範例"
-Description: "整批格式錯誤等無法受理時，HTTP狀態為400 Bad Request，僅回覆單一OperationOutcomeNIIS，不回覆Bundle。"
+Title: "上傳失敗-系統回應訊息-Bad Request範例"
+Description: "依據系統回應訊息（OperationOutcome NIIS）Profile 呈現整批上傳之檢核報告系統回覆 HTTP 400 的錯誤訊息。"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 	<h3>
-		<b>上傳失敗-HTTP 400 Bad Request-OperationOutcome範例</b>
+		<b>上傳失敗-系統回應訊息-Bad Request範例</b>
 	</h3>
 	<p>
 		<b>問題嚴重性</b>：Error <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://hl7.org/fhir/issue-severity\">IssueSeverity</a>#error） </span>

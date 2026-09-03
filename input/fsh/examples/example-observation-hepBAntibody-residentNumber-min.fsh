@@ -35,7 +35,7 @@ Usage: #example
 * code.coding[HepBAntibodyOb] = https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-hepBAntibody-obs-values#IgG "IgG"
 * subject = Reference(Patient/patient-residentNumber-min)
 * effectiveDateTime = "2020-01-01"
-* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
-* interpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
+* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS
+* interpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS
 * component[PrenatalExaminationPerformed].code.coding = https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-obs-values#是否為產檢 "是否為產檢"
 * component[PrenatalExaminationPerformed].valueBoolean = true

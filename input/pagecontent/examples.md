@@ -1,8 +1,12 @@
 以下為本IG所有Profiles的範例，範例中之代碼連結皆為代碼系統連結。
 
 ### Bundle
+#### 登錄與上傳
 - [合約院所上傳檢驗報告-Bundle範例](Bundle-bundle-request-reporting-niis-min.html)
-- [CDC回覆合約院所上傳檢驗報告-Bundle範例](Bundle-bundle-response-niis-min.html)
+
+#### 系統回覆登錄與上傳結果
+- [上傳成功-CDC回覆合約院所上傳檢驗報告-Bundle範例](Bundle-bundle-response-niis-min.html)
+- [上傳失敗-系統回應訊息-Bad Request範例](OperationOutcome-operationoutcome-badrequest-min.html)
 
 ### DiagnosticReport
 - [檢驗報告-抗體檢驗結果-Case1](DiagnosticReport-diagnosticreport-id-min.html)
@@ -18,7 +22,7 @@
 - [抗體檢驗(IgG)-孕婦B肝產檢結果-Case3](Observation-observation-hepBAntibody-residentNumber-min.html)
 
 ### OperationOutcome
-- [系統回應訊息-Bad Request範例](OperationOutcome-operationoutcome-badrequest-min.html)
+- [上傳失敗-系統回應訊息-Bad Request範例](OperationOutcome-operationoutcome-badrequest-min.html)
 
 ### Organization
 - [合約院所](Organization-organization-hosp-min.html)

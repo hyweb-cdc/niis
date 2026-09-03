@@ -12,9 +12,9 @@ status: active # draft | active | retired | unknown
 version: 0.0.1
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
-releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+jurisdiction: urn:iso:std:iso:3166#TW
 publisher:
   name: 衛福部疾病管制署
   url: https://www.cdc.gov.tw
@@ -77,8 +77,6 @@ pages:
 parameters:
   default-version: false
   apply-version: false
-  # 依賴樹同時載入 hl7.terminology.r4 6.1.0 與 7.3.0，導致部分 canonical（v2-* 值集、
-  # patient-nationality 擴充）有多版本歧義。只對「有多個候選版本」者釘上版本號。
   pin-canonicals: pin-multiples
 #
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮

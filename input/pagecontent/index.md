@@ -21,12 +21,12 @@
 
 
 #### API作業流程
-院所端呼叫 UpldExamRslt 服務，上傳麻疹/德國麻疹或孕婦 B 型肝炎檢驗結
-果並登錄至 NIIS 系統
-1. 合約院所呼叫 API: UpldExamRslt 多筆或單筆之新增、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果，NIIS系統會回覆是否成功上傳之訊息。
-2. NIIS系統檢核資料正確性，回覆處理結果：合約院所新增、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果成功訊息。
-3. NIIS系統檢核資料正確性，回覆處理結果：合約院所新增、修改、刪除之麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果失敗訊息。
-4. 合約院所可依照NIIS系統回覆訊息做資料修正。
+院所端呼叫 UpldExamRslt 服務，上傳麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果並登錄至 NIIS 系統。
+
+1. 合約院所呼叫 API: UpldExamRslt，以<a href="StructureDefinition-bundle-request-reporting-niis.html">合約院所上傳檢驗報告（Bundle Request Reporting NIIS）</a>格式，多筆或單筆新增、修改、刪除麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果。
+2. NIIS 系統檢核資料正確性；若檢核通過，回覆 HTTP 200 OK，並以<a href="StructureDefinition-bundle-response-niis.html">CDC回覆合約院所上傳/修改/刪除（Bundle Response NIIS）</a>格式回覆新增、修改、刪除檢驗結果成功訊息。
+3. NIIS 系統檢核資料正確性；若檢核未通過，回覆 HTTP 400 Bad Request，並以<a href="StructureDefinition-operationoutcome-niis.html">系統回應訊息（OperationOutcome NIIS）</a>格式回覆錯誤訊息。
+4. 合約院所可依照 NIIS 系統回覆訊息進行資料修正。
 
 <div style="justify-content: center;display: flex;width: 100%;">{% include index-niis.svg %}</div>
 

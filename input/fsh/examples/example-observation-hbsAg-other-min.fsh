@@ -57,8 +57,8 @@ Usage: #example
 * performer = Reference(Organization/organization-specco-min)
 * method.coding = https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-obs-method-values#Other "Other"
 * method.text = "CLIA"
-* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
-* interpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS "Positive"
+* valueCodeableConcept = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS
+* interpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS
 * component[ExpectedDeliveryDate].code.coding = https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-obs-values#預產期 "預產期"
 * component[ExpectedDeliveryDate].valueDateTime = "2020-01-24"
 * component[HepatitisBViralLoad].code.coding = https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-obs-values#B型肝炎病毒含量 "B型肝炎病毒含量"
