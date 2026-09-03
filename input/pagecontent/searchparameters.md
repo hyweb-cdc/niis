@@ -1,3 +1,0 @@
-以下為本IG使用到的所有查詢參數(SearchParameter)及操作定義（OperationDefinition）。
-
-目前本IG尚未定義額外的SearchParameter或OperationDefinition。
