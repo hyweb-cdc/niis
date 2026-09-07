@@ -75,16 +75,18 @@
 <tr class="header">
 <th style="width:10%">角色</th>
 <th style="width:10%">姓名</th>
+<th>機構</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>作者-IG</td>
-<td>李奇安（Chi-An Lee）</td>
+<td>李奇安</td>
+<td rowspan="2">凌網資訊</td>
 </tr>
 <tr>
-<td>作者-系統規格書</td>
-<td>凌網資訊</td>
+<td>貢獻者-IG</td>
+<td>曾鈺珈</td>
 </tr>
 </tbody>
 </table>
