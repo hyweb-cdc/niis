@@ -1,7 +1,7 @@
 Instance: patient-passport-min
 InstanceOf: PatientReportingNIIS
 Title: "個案資料-Case2"
-Description: "依據個案資料（Patient Reporting NIIS）Profile 呈現ID種類3：護照號碼個案資料。"
+Description: "依據個案資料(Patient Reporting NIIS)Profile 呈現ID種類3：護照號碼個案資料。"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -9,13 +9,13 @@ Usage: #example
 		<b>個案資料-護照號碼</b>
 	</h3>
 	<p>
-		<b>識別碼型別</b>：Passport number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#PPN） </span>
+		<b>識別碼型別</b>：Passport number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#PPN) </span>
 	</p>
 	<p>
-		<b>護照號碼</b>：888800371（http://hl7.org/fhir/sid/passport-TWN）
+		<b>護照號碼</b>：888800371(http://hl7.org/fhir/sid/passport-TWN)
 	</p>
 	<p>
-		<b>姓名（usual）</b>：王大明
+		<b>姓名(usual)</b>：王大明
 	</p>
 	<p>
 		<b>性別</b>：男性

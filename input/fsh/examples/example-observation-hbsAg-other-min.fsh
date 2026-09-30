@@ -1,7 +1,7 @@
 Instance: observation-hbsAg-other-min
 InstanceOf: ObservationHBsAgReportingNIIS
 Title: "HBsAg檢驗(Other)-孕婦B肝產檢結果-Case3"
-Description: "依據HBsAg檢驗檢查（Observation HBsAg Reporting NIIS）Profile 呈現孕婦B肝產檢結果之HBsAg其他方法檢驗檢查。"
+Description: "依據HBsAg檢驗檢查(Observation HBsAg Reporting NIIS)Profile 呈現孕婦B肝產檢結果之HBsAg其他方法檢驗檢查。"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -12,10 +12,10 @@ Usage: #example
 		<b>檢驗狀態</b>：final
 	</p>
 	<p>
-		<b>檢驗類別</b>：Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/observation-category\">ObservationCategoryCodes</a>#laboratory） </span>
+		<b>檢驗類別</b>：Laboratory <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/observation-category\">ObservationCategoryCodes</a>#laboratory) </span>
 	</p>
 	<p>
-		<b>檢驗項目</b>：HBsAg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"CodeSystem-twniis-hep-b-test-code-values.html\">CDC-NIIS系統-B肝檢驗項目</a>#HBsAg） </span>
+		<b>檢驗項目</b>：HBsAg <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twniis-hep-b-test-code-values.html\">CDC-NIIS系統-B肝檢驗項目</a>#HBsAg) </span>
 	</p>
 	<p>
 		<b>個案資料</b>：<a href=\"Patient-patient-residentNumber-min.html\">Patient/patient-residentNumber-min</a> \"張小花\"
@@ -30,10 +30,10 @@ Usage: #example
 		<b>採檢單位</b>：<a href=\"Organization-organization-specco-min.html\">Organization/organization-specco-min</a> \"採檢單位\"
 	</p>
 	<p>
-		<b>檢驗方法</b>：Other（CLIA） <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"CodeSystem-twniis-obs-method-values.html\">CDC-NIIS系統-檢驗方法</a>#Other） </span>
+		<b>檢驗方法</b>：Other(CLIA) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twniis-obs-method-values.html\">CDC-NIIS系統-檢驗方法</a>#Other) </span>
 	</p>
 	<p>
-		<b>檢驗結果</b>：Positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation\">ObservationInterpretation</a>#POS） </span>
+		<b>檢驗結果</b>：Positive <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation\">ObservationInterpretation</a>#POS) </span>
 	</p>
 	<p>
 		<b>預產期</b>：2020-01-24

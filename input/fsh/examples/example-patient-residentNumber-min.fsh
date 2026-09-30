@@ -1,7 +1,7 @@
 Instance: patient-residentNumber-min
 InstanceOf: PatientReportingNIIS
 Title: "個案資料-Case3"
-Description: "依據個案資料（Patient Reporting NIIS）Profile 呈現ID種類2：居留證號個案資料。"
+Description: "依據個案資料(Patient Reporting NIIS)Profile 呈現ID種類2：居留證號個案資料。"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -9,13 +9,13 @@ Usage: #example
 		<b>個案資料-張小花</b>
 	</h3>
 	<p>
-		<b>識別碼型別</b>：Permanent Resident Card Number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#PRC） </span>
+		<b>識別碼型別</b>：Permanent Resident Card Number <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#PRC) </span>
 	</p>
 	<p>
-		<b>居留證號</b>：A912345678（http://www.immigration.gov.tw）
+		<b>居留證號</b>：A912345678(http://www.immigration.gov.tw)
 	</p>
 	<p>
-		<b>姓名（usual）</b>：張小花
+		<b>姓名(usual)</b>：張小花
 	</p>
 	<p>
 		<b>性別</b>：女性

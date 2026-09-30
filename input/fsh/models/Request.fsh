@@ -107,11 +107,11 @@ Source: NIISRequestModel
 Target: "https://twniis.cdc.gov.tw/twniis/StructureDefinition/organization-specco-reporting-niis"
 * hepBAgRslt.hbvVLFacility -> "Organization.identifier"
 
-Mapping: TWNIISObservationHepBAntibody
-Id: TWNIISObservationHepBAntibody
-Title: "Mapping to TWNIIS Observation HepBAntibody（德國麻疹／麻疹 IgG/IgM 檢驗）"
+Mapping: TWNIISObservationMRAntibody
+Id: TWNIISObservationMRAntibody
+Title: "Mapping to TWNIIS Observation MRAntibody(麻疹／德國麻疹 IgG/IgM 檢驗)"
 Source: NIISRequestModel
-Target: "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-HepBAntibody-reporting-niis"
+Target: "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-MRAntibody-reporting-niis"
 * mmrRslt.drawDate -> "Observation.effectiveDateTime"
 * mmrRslt.igGRslt -> "Observation.where(code.coding.code = 'IgG').interpretation.coding.code"
 * mmrRslt.igMRslt -> "Observation.where(code.coding.code = 'IgM').interpretation.coding.code"

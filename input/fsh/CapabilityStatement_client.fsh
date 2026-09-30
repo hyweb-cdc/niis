@@ -57,7 +57,7 @@ Usage: #definition
 * rest.resource[+].type = #Observation
 * rest.resource[=].supportedProfile[0] = "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-hBsAg-reporting-niis"
 * rest.resource[=].supportedProfile[+] = "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-HBeAg-reporting-niis"
-* rest.resource[=].supportedProfile[+] = "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-HepBAntibody-reporting-niis"
+* rest.resource[=].supportedProfile[+] = "https://twniis.cdc.gov.tw/twniis/StructureDefinition/observation-MRAntibody-reporting-niis"
 * rest.resource[=].interaction[0].extension.url = "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"
 * rest.resource[=].interaction[=].extension.valueCode = #SHOULD
 * rest.resource[=].interaction[=].code = #create

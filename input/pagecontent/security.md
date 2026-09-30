@@ -25,7 +25,7 @@
 
 Username 和 Password 會組合成一個字串，格式為 Username:Password，此字串將會進行 Base64 編碼。
 
-假設 Username（OrgId）為 1234567890，Password（KeyId）為 abcdef123456，範例如下：
+假設 Username(OrgId)為 1234567890，Password(KeyId)為 abcdef123456，範例如下：
 
 - 例：`Authorization: Basic MTIzNDU2Nzg5MDphYmNkZWYxMjM0NTY=`
 

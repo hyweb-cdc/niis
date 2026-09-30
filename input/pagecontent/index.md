@@ -1,7 +1,7 @@
 
 ### 專案介紹
 <div  style="padding-left: 10px;"> 
-<p>全國性預防接種資訊登錄與上傳實作指引(TWNIIS IG)採用HL7® FHIR® standard（Fast Healthcare Interoperability Resources）IG建置方法，在<a href="http://hl7.org/fhir/R4/">FHIR R4.0.1</a>之標準基礎上，繼承TW Core IG V 0.3.2 (2024-12-12)，進一步定義適用於「全國性預防接種資訊登錄與上傳實作指引(以下簡稱本專案)」資料需求的Resources（類似資料表）、其中的資料項目（意即欄位）、基數（意即0..1、0..*、1..1或1..*）及資料類型（文字、日期時間、代碼等）等。</p>
+<p>全國性預防接種資訊登錄與上傳實作指引(TWNIIS IG)採用HL7® FHIR® standard(Fast Healthcare Interoperability Resources)IG建置方法，在<a href="http://hl7.org/fhir/R4/">FHIR R4.0.1</a>之標準基礎上，繼承TW Core IG V 0.3.2 (2024-12-12)，進一步定義適用於「全國性預防接種資訊登錄與上傳實作指引(以下簡稱本專案)」資料需求的Resources(類似資料表)、其中的資料項目(意即欄位)、基數(意即0..1、0..*、1..1或1..*)及資料類型(文字、日期時間、代碼等)等。</p>
 </div>
 
 ### 專案背景
@@ -21,11 +21,11 @@
 
 
 #### API作業流程
-院所端呼叫 UpldExamRslt 服務，上傳麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果並登錄至 NIIS 系統。
+院所端呼叫 UpldExamRslt 服務，上傳麻疹／德國麻疹或孕婦 B 型肝炎檢驗結果並登錄至 NIIS 系統。
 
-1. 合約院所呼叫 API: UpldExamRslt，以<a href="StructureDefinition-bundle-request-reporting-niis.html">合約院所上傳檢驗報告（Bundle Request Reporting NIIS）</a>格式，多筆或單筆新增、修改、刪除麻疹/德國麻疹或孕婦 B 型肝炎檢驗結果。
-2. NIIS 系統檢核資料正確性；若檢核通過，回覆 HTTP 200 OK，並以<a href="StructureDefinition-bundle-response-niis.html">CDC回覆合約院所上傳/修改/刪除（Bundle Response NIIS）</a>格式回覆新增、修改、刪除檢驗結果成功訊息。
-3. NIIS 系統檢核資料正確性；若檢核未通過，回覆 HTTP 400 Bad Request，並以<a href="StructureDefinition-operationoutcome-niis.html">系統回應訊息（OperationOutcome NIIS）</a>格式回覆錯誤訊息。
+1. 合約院所呼叫 API: UpldExamRslt，以<a href="StructureDefinition-bundle-request-reporting-niis.html">合約院所上傳檢驗報告(Bundle Request Reporting NIIS)</a>格式，多筆或單筆新增、修改、刪除麻疹／德國麻疹或孕婦 B 型肝炎檢驗結果。
+2. NIIS 系統檢核資料正確性；若檢核通過，回覆 HTTP 200 OK，並以<a href="StructureDefinition-bundle-response-niis.html">CDC回覆合約院所上傳/修改/刪除(Bundle Response NIIS)</a>格式回覆新增、修改、刪除檢驗結果成功訊息。
+3. NIIS 系統檢核資料正確性；若檢核未通過，回覆 HTTP 400 Bad Request，並以<a href="StructureDefinition-operationoutcome-niis.html">系統回應訊息(OperationOutcome NIIS)</a>格式回覆錯誤訊息。
 4. 合約院所可依照 NIIS 系統回覆訊息進行資料修正。
 
 <!--<div style="justify-content: center;display: flex;width: 100%;">{% include index-niis.svg %}</div>-->
@@ -60,7 +60,7 @@
         	</ul>
       	</li>
 		<li><strong><a href="terminologies.html">專門術語</a>
-			</strong>：本IG所使用的專門術語，包括代碼系統（Code Systems）及值集（Value Sets）。
+			</strong>：本IG所使用的專門術語，包括代碼系統(Code Systems)及值集(Value Sets)。
 		</li>
 	</ul>
 	</li>

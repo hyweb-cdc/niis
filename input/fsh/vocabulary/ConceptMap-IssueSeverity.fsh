@@ -1,7 +1,7 @@
 Instance: twniis-issueseverity
 InstanceOf: ConceptMap
 Title: "NIIS系統回應訊息-問題嚴重性代碼對應 HL7 IssueSeverity"
-Description: "臺灣衛生福利部疾管署NIIS系統系統回應訊息代碼對應 HL7 IssueSeverity 代碼，概念對應出版日期：2026-08-15；資料所屬單位：臺灣衛生福利部疾管署。
+Description: "臺灣衛生福利部疾管署NIIS系統回應訊息代碼對應 HL7 IssueSeverity 代碼，概念對應出版日期：2026-08-15；資料所屬單位：臺灣衛生福利部疾管署。
 
 *因原始資料無代碼版本資訊，故使用其「生效日期」作為版本資訊。*"
 Usage: #definition

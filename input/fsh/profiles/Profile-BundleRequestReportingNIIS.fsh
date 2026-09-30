@@ -1,8 +1,8 @@
 Profile: BundleRequestReportingNIIS
 Parent: TWCoreBundle
 Id: bundle-request-reporting-niis
-Title:  "合約院所上傳檢驗報告（Bundle Request Reporting NIIS）"
-Description: "此合約院所上傳檢驗報告（Bundle Request Reporting NIIS）Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位（TW Core Bundle）Profile以呈現全國性預防接種資訊之合約院所上傳檢驗報告。"
+Title:  "合約院所上傳檢驗報告(Bundle Request Reporting NIIS)"
+Description: "此合約院所上傳檢驗報告(Bundle Request Reporting NIIS)Profile說明本IG如何進一步定義臺灣核心-資料交換基本單位(TW Core Bundle)Profile以呈現全國性預防接種資訊之合約院所上傳檢驗報告。"
 * ^version = "0.0.1"
 
 * type ^short = "【此欄位為FHIR必填欄位】"
@@ -30,7 +30,7 @@ Description: "此合約院所上傳檢驗報告（Bundle Request Reporting NIIS�
 * entry[diagnosticreport].resource only DiagnosticReportingNIIS
 
 * entry[observation].resource 1..1 MS
-* entry[observation].resource only ObservationHBeAgReportingNIIS or ObservationHBsAgReportingNIIS or ObservationHepBAntibodyReportingNIIS
+* entry[observation].resource only ObservationHBeAgReportingNIIS or ObservationHBsAgReportingNIIS or ObservationMRAntibodyReportingNIIS
 
 * entry[patient].resource 1..1 MS
 * entry[patient].resource only PatientReportingNIIS

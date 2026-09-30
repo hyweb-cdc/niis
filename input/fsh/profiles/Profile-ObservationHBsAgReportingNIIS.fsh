@@ -1,8 +1,8 @@
 Profile: ObservationHBsAgReportingNIIS
 Parent: TWCoreObservationLaboratoryResult
 Id: observation-hBsAg-reporting-niis
-Title: "HBsAg檢驗檢查（Observation HBsAg Reporting NIIS）"
-Description: "此HBsAg檢驗檢查（Observation HBsAg Reporting NIIS）Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile以呈現全國性預防接種資訊之HBsAg檢驗檢查資料。"
+Title: "HBsAg檢驗檢查(Observation HBsAg Reporting NIIS)"
+Description: "此HBsAg檢驗檢查(Observation HBsAg Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查(TW Core Observation Laboratory Result)Profile以呈現全國性預防接種資訊之HBsAg檢驗檢查資料。"
 * ^version = "0.0.1"
 
 * category 1..1 MS
@@ -96,6 +96,6 @@ Description: "此HBsAg檢驗檢查（Observation HBsAg Reporting NIIS）Profile 
 
 
 Invariant: niis-hbsag-method-other
-Description: "檢驗方法為 Other 時，method.text（HBsAg 其他檢驗方法名稱）必填"
+Description: "檢驗方法為 Other 時，method.text(HBsAg 其他檢驗方法名稱)必填"
 Expression: "coding.where(code = 'Other').exists() implies text.exists()"
 Severity: #error

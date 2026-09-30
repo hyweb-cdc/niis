@@ -1,8 +1,8 @@
 Profile: DiagnosticReportingNIIS
 Parent: TWCoreDiagnosticReport
 Id: diagnosticReport-reporting-niis
-Title: "檢驗報告（DiagnosticReport Reporting NIIS)"
-Description: "此檢驗報告（DiagnosticReport Reporting NIIS）Profile 說明本IG如何進一步定義臺灣核心-診斷報告（TW Core DiagnosticReport）Profile以呈現全國性預防接種資訊之檢驗報告。"
+Title: "檢驗報告(DiagnosticReport Reporting NIIS)"
+Description: "此檢驗報告(DiagnosticReport Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-診斷報告(TW Core DiagnosticReport)Profile以呈現全國性預防接種資訊之檢驗報告。"
 * ^version = "0.0.1"
 
 
@@ -39,10 +39,10 @@ Description: "此檢驗報告（DiagnosticReport Reporting NIIS）Profile 說明
 * result contains
     HBsAg 0..1 MS and
     HBeAg 0..1 MS and
-    HepBAntibody 0..1 MS
+    MRAntibody 0..1 MS
 * result[HBsAg] only Reference(ObservationHBsAgReportingNIIS)
 * result[HBsAg] ^short = "HBsAg 檢驗結果"
 * result[HBeAg] only Reference(ObservationHBeAgReportingNIIS)
 * result[HBeAg] ^short = "HBeAg 檢驗結果"
-* result[HepBAntibody] only Reference(ObservationHepBAntibodyReportingNIIS)
-* result[HepBAntibody] ^short = "HepBAntibody 檢驗結果"
+* result[MRAntibody] only Reference(ObservationMRAntibodyReportingNIIS)
+* result[MRAntibody] ^short = "麻疹／德國麻疹抗體檢驗結果"

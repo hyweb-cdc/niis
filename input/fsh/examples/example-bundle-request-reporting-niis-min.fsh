@@ -1,7 +1,7 @@
 Instance: bundle-request-reporting-niis-min
 InstanceOf: BundleRequestReportingNIIS
 Title: "合約院所上傳檢驗報告-Bundle範例"
-Description: "依據合約院所上傳檢驗報告（Bundle Request Reporting NIIS）Profile 呈現多筆個案檢驗結果批次上傳之Bundle範例。"
+Description: "依據合約院所上傳檢驗報告(Bundle Request Reporting NIIS)Profile 呈現多筆個案檢驗結果批次上傳之Bundle範例。"
 Usage: #example
 * type = #batch
 * timestamp = "2020-01-01T10:00:00+08:00"
@@ -21,15 +21,15 @@ Usage: #example
 * entry[2].request.method = #POST
 * entry[2].request.url = "DiagnosticReport/diagnosticreport-residentNumber-min"
 
-* entry[3].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-hepBAntibody-id-min"
-* entry[3].resource = observation-hepBAntibody-id-min
+* entry[3].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-mrAntibody-id-min"
+* entry[3].resource = observation-mrAntibody-id-min
 * entry[3].request.method = #POST
-* entry[3].request.url = "Observation/observation-hepBAntibody-id-min"
+* entry[3].request.url = "Observation/observation-mrAntibody-id-min"
 
-* entry[4].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-hepBAntibody-passport-min"
-* entry[4].resource = observation-hepBAntibody-passport-min
+* entry[4].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-mrAntibody-passport-min"
+* entry[4].resource = observation-mrAntibody-passport-min
 * entry[4].request.method = #POST
-* entry[4].request.url = "Observation/observation-hepBAntibody-passport-min"
+* entry[4].request.url = "Observation/observation-mrAntibody-passport-min"
 
 * entry[5].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-hbsAg-min"
 * entry[5].resource = observation-hbsAg-min
@@ -41,10 +41,10 @@ Usage: #example
 * entry[6].request.method = #POST
 * entry[6].request.url = "Observation/observation-hbeAg-min"
 
-* entry[7].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-hepBAntibody-residentNumber-min"
-* entry[7].resource = observation-hepBAntibody-residentNumber-min
+* entry[7].fullUrl = "https://twniis.cdc.gov.tw/twniis/Observation/observation-mrAntibody-residentNumber-min"
+* entry[7].resource = observation-mrAntibody-residentNumber-min
 * entry[7].request.method = #POST
-* entry[7].request.url = "Observation/observation-hepBAntibody-residentNumber-min"
+* entry[7].request.url = "Observation/observation-mrAntibody-residentNumber-min"
 
 * entry[8].fullUrl = "https://twniis.cdc.gov.tw/twniis/Patient/patient-id-min"
 * entry[8].resource = patient-id-min

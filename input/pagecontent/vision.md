@@ -1,11 +1,11 @@
 ### 全國性預防接種資訊登錄與上傳檢驗報告之Bundle架構(Bundle Request)
 <div  style="padding-left: 10px;"> 
-麻疹/德國麻疹或孕婦 B 型肝炎檢驗報告透過Bundle打包以下資料(相關對應表可以參照全國性預防接種資訊登錄與上傳(Request)之邏輯模型中的<a href="StructureDefinition-NIISRequestModel-mappings.html">Mappings</a>)：
+麻疹／德國麻疹或孕婦 B 型肝炎檢驗報告透過Bundle打包以下資料(相關對應表可以參照全國性預防接種資訊登錄與上傳(Request)之邏輯模型中的<a href="StructureDefinition-NIISRequestModel-mappings.html">Mappings</a>)：
 <ul>
 	<li><a href="StructureDefinition-diagnosticReport-reporting-niis.html">檢驗檢查報告(DiagnosticReport Reporting NIIS Profile)</a></li>
 	<li><a href="StructureDefinition-observation-hBsAg-reporting-niis.html">HBsAg檢驗檢查(Observation HBsAg Reporting NIIS Profile)</a></li>
 	<li><a href="StructureDefinition-observation-HBeAg-reporting-niis.html">HBeAg檢驗檢查(Observation HBeAg Reporting NIIS Profile)</a></li>
-	<li><a href="StructureDefinition-observation-HepBAntibody-reporting-niis.html">HepBAntibody檢驗檢查(Observation HepBAntibody Reporting NIIS Profile)</a></li>
+	<li><a href="StructureDefinition-observation-MRAntibody-reporting-niis.html">麻疹／德國麻疹抗體檢驗檢查(Observation MRAntibody Reporting NIIS Profile)</a></li>
 	<li><a href="StructureDefinition-specimen-reporting-niis.html">檢驗檢體(Specimen Reporting NIIS Profile)</a></li>
 	<li><a href="StructureDefinition-patient-reporting-niis.html">個案資料(Patient Reporting NIIS Profile)</a></li>
 	<li><a href="StructureDefinition-organization-hosp-reporting-niis.html">合約院所(Organization Hosp Reporting NIIS Profile)</a></li>

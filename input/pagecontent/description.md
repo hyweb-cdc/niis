@@ -1189,7 +1189,7 @@
                 <li>CGVAAccount：有權限使用 VA Server 帳號。</li>
                 <li>CGVAPass：VA Server 帳號的密碼。</li>
                 <li>CGVAURL：VA Server 位址。</li>
-                <li>LogMsg：訊息欄位，用以存放要記錄的訊息（例如IP）或說明資訊。預設值為空字串。</li>
+                <li>LogMsg：訊息欄位，用以存放要記錄的訊息(例如IP)或說明資訊。預設值為空字串。</li>
             </ul>
         </td>
     </tr>
@@ -1277,7 +1277,7 @@
     </tr>
     <tr>
         <th>參數</th>
-        <td>iType：訊息種類。可不傳此參數，預設值為伺服器訊息。CHINESE_ERROR_MSG：中文訊息，ENGLISH_ERROR_MSG：英文訊息。SERVLET_ERROR_MSG：伺服器訊息（英文）。可用”|” 同時顯示中文訊
+        <td>iType：訊息種類。可不傳此參數，預設值為伺服器訊息。CHINESE_ERROR_MSG：中文訊息，ENGLISH_ERROR_MSG：英文訊息。SERVLET_ERROR_MSG：伺服器訊息(英文)。可用”|” 同時顯示中文訊
 息+伺服器訊息，或英文訊息+伺服器訊息。</td>
     </tr>
     <tr>
@@ -1381,7 +1381,7 @@
         </tr>
         <tr>
             <td>5017</td>
-            <td>憑證用途（加解密或簽驗章）不合適。</td>
+            <td>憑證用途(加解密或簽驗章)不合適。</td>
             <td>Invalid certificate key usage!</td>
         </tr>
         <tr>
@@ -1391,27 +1391,27 @@
         </tr>
         <tr>
             <td>5021</td>
-            <td>憑證已撤銷（金鑰洩露）。</td>
+            <td>憑證已撤銷(金鑰洩露)。</td>
             <td>Certificate is revoked (key compromised)</td>
         </tr>
         <tr>
             <td>5022</td>
-            <td>憑證已撤銷（CA compromised）。</td>
+            <td>憑證已撤銷(CA compromised)。</td>
             <td>Certificate is revoked (CA compromised)</td>
         </tr>
         <tr>
             <td>5023</td>
-            <td>憑證已撤銷（聯盟已變更）。</td>
+            <td>憑證已撤銷(聯盟已變更)。</td>
             <td>Certificate is revoked (affiliation changed)</td>
         </tr>
         <tr>
             <td>5024</td>
-            <td>憑證已撤銷（已取代）。</td>
+            <td>憑證已撤銷(已取代)。</td>
             <td>Certificate is revoked (superseded)</td>
         </tr>
         <tr>
             <td>5025</td>
-            <td>憑證已撤銷（已停止）。</td>
+            <td>憑證已撤銷(已停止)。</td>
             <td>Certificate is revoked (cessation)</td>
         </tr>
         <tr>
@@ -1421,7 +1421,7 @@
         </tr>
         <tr>
             <td>5028</td>
-            <td>憑證己撤銷（凍結）。</td>
+            <td>憑證己撤銷(凍結)。</td>
             <td>Certificate is revoked (hold)</td>
         </tr>
         <tr>

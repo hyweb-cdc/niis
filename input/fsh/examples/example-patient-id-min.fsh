@@ -1,7 +1,7 @@
 Instance: patient-id-min
 InstanceOf: PatientReportingNIIS
 Title: "個案資料-Case1"
-Description: "依據個案資料（Patient Reporting NIIS）Profile 呈現ID種類1：身分證號個案資料。"
+Description: "依據個案資料(Patient Reporting NIIS)Profile 呈現ID種類1：身分證號個案資料。"
 Usage: #example
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -9,13 +9,13 @@ Usage: #example
 		<b>個案資料-陳小明</b>
 	</h3>
 	<p>
-		<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#NNxxx） </span>
+		<b>識別碼型別</b>：National Person Identifier <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://terminology.hl7.org/CodeSystem/v2-0203\">IdentifierType</a>#NNxxx) </span>
 	</p>
 	<p>
-		<b>身分證號</b>：A123456789（http://www.moi.gov.tw）
+		<b>身分證號</b>：A123456789(http://www.moi.gov.tw)
 	</p>
 	<p>
-		<b>姓名（usual）</b>：陳小明
+		<b>姓名(usual)</b>：陳小明
 	</p>
 	<p>
 		<b>性別</b>：男性

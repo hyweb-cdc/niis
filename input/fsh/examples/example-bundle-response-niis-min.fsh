@@ -1,7 +1,7 @@
 Instance: bundle-response-niis-min
 InstanceOf: BundleResponseNIIS
 Title: "上傳成功-CDC回覆合約院所上傳檢驗報告-Bundle範例"
-Description: "依據CDC回覆合約院所上傳/修改/刪除（Bundle Response NIIS）Profile 呈現CDC逐筆回覆檢驗報告處理結果之Bundle範例。"
+Description: "依據CDC回覆合約院所上傳/修改/刪除(Bundle Response NIIS)Profile 呈現CDC逐筆回覆檢驗報告處理結果之Bundle範例。"
 Usage: #example
 * type = #batch-response
 * timestamp = "2020-01-01T10:00:00+08:00"
@@ -25,13 +25,13 @@ Usage: #inline
 		<b>系統回應訊息</b>
 	</h3>
 	<p>
-		<b>問題嚴重性</b>：Information <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://hl7.org/fhir/issue-severity\">IssueSeverity</a>#information） </span>
+		<b>問題嚴重性</b>：Information <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/issue-severity\">IssueSeverity</a>#information) </span>
 	</p>
 	<p>
-		<b>問題種類</b>：Informational Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://hl7.org/fhir/issue-type\">IssueType</a>#informational） </span>
+		<b>問題種類</b>：Informational Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/issue-type\">IssueType</a>#informational) </span>
 	</p>
 	<p>
-		<b>訊息種類</b>：新增成功 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"CodeSystem-twniis-operationoutcome-values.html\">CDC-NIIS系統-系統回應訊息</a>#I00001） </span>
+		<b>訊息種類</b>：新增成功 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twniis-operationoutcome-values.html\">CDC-NIIS系統-系統回應訊息</a>#I00001) </span>
 	</p>
 </div>"
 * issue.severity = #information
@@ -47,13 +47,13 @@ Usage: #inline
 		<b>系統回應訊息</b>
 	</h3>
 	<p>
-		<b>問題嚴重性</b>：Information <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://hl7.org/fhir/issue-severity\">IssueSeverity</a>#information） </span>
+		<b>問題嚴重性</b>：Information <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/issue-severity\">IssueSeverity</a>#information) </span>
 	</p>
 	<p>
-		<b>問題種類</b>：Informational Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"http://hl7.org/fhir/issue-type\">IssueType</a>#informational） </span>
+		<b>問題種類</b>：Informational Note <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"http://hl7.org/fhir/issue-type\">IssueType</a>#informational) </span>
 	</p>
 	<p>
-		<b>訊息種類</b>：B肝病毒量採檢日期大於抽血日 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> （ <a href=\"CodeSystem-twniis-operationoutcome-values.html\">CDC-NIIS系統-系統回應訊息</a>#E00072） </span>
+		<b>訊息種類</b>：B肝病毒量採檢日期大於抽血日 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ( <a href=\"CodeSystem-twniis-operationoutcome-values.html\">CDC-NIIS系統-系統回應訊息</a>#E00072) </span>
 	</p>
 </div>"
 * issue.severity = #information

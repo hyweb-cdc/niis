@@ -1,8 +1,8 @@
-Profile: ObservationHepBAntibodyReportingNIIS
+Profile: ObservationMRAntibodyReportingNIIS
 Parent: TWCoreObservationLaboratoryResult
-Id: observation-HepBAntibody-reporting-niis
-Title: "HepBAntibody檢驗檢查（Observation HepBAntibody Reporting NIIS）"
-Description: "此HepBAntibody檢驗檢查（Observation HepBAntibody Reporting NIIS）Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查（TW Core Observation Laboratory Result）Profile以呈現全國性預防接種資訊之HepBAntibody檢驗檢查資料。"
+Id: observation-MRAntibody-reporting-niis
+Title: "麻疹／德國麻疹抗體檢驗檢查(Observation MRAntibody Reporting NIIS)"
+Description: "MR 代表 Measles／Rubella(麻疹／德國麻疹)。此麻疹／德國麻疹抗體檢驗檢查(Observation MRAntibody Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查(TW Core Observation Laboratory Result)Profile以呈現全國性預防接種資訊之麻疹／德國麻疹抗體檢驗檢查資料。"
 * ^version = "0.0.1"
 
 * category 1..1
@@ -15,13 +15,13 @@ Description: "此HepBAntibody檢驗檢查（Observation HepBAntibody Reporting N
 * code.coding[LOINCObservationCode] 0..0
 * code.coding[TWLaboratoryCategory] 0..0
 * code.coding 1..1 MS
-* code.coding contains HepBAntibodyOb 1..1 MS
-* code.coding[HepBAntibodyOb] from TWNIISHepBAntibodyObsVS (required)
-* code.coding[HepBAntibodyOb].code 1..1 MS
-* code.coding[HepBAntibodyOb].system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-hepBAntibody-obs-values"
+* code.coding contains MRAntibodyOb 1..1 MS
+* code.coding[MRAntibodyOb] from TWNIISMRAntibodyObsVS (required)
+* code.coding[MRAntibodyOb].code 1..1 MS
+* code.coding[MRAntibodyOb].system = "https://twniis.cdc.gov.tw/twniis/CodeSystem/twniis-mrAntibody-obs-values"
 
 * interpretation 1..1 MS
-* interpretation ^short = "HepBAntibody檢驗結果"
+* interpretation ^short = "麻疹／德國麻疹抗體檢驗結果"
 * interpretation from HL7TestResult (required)
 
 * performer only Reference(OrganizationSpeccoReportingNIIS)

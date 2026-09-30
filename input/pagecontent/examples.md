@@ -9,17 +9,17 @@
 - [上傳失敗-系統回應訊息-Bad Request範例](OperationOutcome-operationoutcome-badrequest-min.html)
 
 ### DiagnosticReport
-- [檢驗報告-抗體檢驗結果-Case1](DiagnosticReport-diagnosticreport-id-min.html)
-- [檢驗報告-抗體檢驗結果-Case2](DiagnosticReport-diagnosticreport-passport-min.html)
-- [檢驗報告-孕婦B肝產檢結果-Case3](DiagnosticReport-diagnosticreport-residentNumber-min.html)
+- [檢驗報告-麻疹／德國麻疹抗體檢驗結果-Case1](DiagnosticReport-diagnosticreport-id-min.html)
+- [檢驗報告-麻疹／德國麻疹抗體檢驗結果-Case2](DiagnosticReport-diagnosticreport-passport-min.html)
+- [檢驗報告-孕婦B肝產檢結果及麻疹／德國麻疹抗體檢驗結果-Case3](DiagnosticReport-diagnosticreport-residentNumber-min.html)
 
 ### Observation
 - [HBeAg檢驗-孕婦B肝產檢結果-Case3](Observation-observation-hbeAg-min.html)
 - [HBsAg檢驗-孕婦B肝產檢結果-Case3](Observation-observation-hbsAg-min.html)
 - [HBsAg檢驗(Other)-孕婦B肝產檢結果-Case3](Observation-observation-hbsAg-other-min.html)
-- [抗體檢驗(IgG)-Case1](Observation-observation-hepBAntibody-id-min.html)
-- [抗體檢驗(IgG)-Case2](Observation-observation-hepBAntibody-passport-min.html)
-- [抗體檢驗(IgG)-孕婦B肝產檢結果-Case3](Observation-observation-hepBAntibody-residentNumber-min.html)
+- [抗體檢驗(IgG)-麻疹／德國麻疹抗體檢驗結果-Case1](Observation-observation-mrAntibody-id-min.html)
+- [抗體檢驗(IgG)-麻疹／德國麻疹抗體檢驗結果-Case2](Observation-observation-mrAntibody-passport-min.html)
+- [抗體檢驗(IgG)-麻疹／德國麻疹抗體檢驗結果-Case3](Observation-observation-mrAntibody-residentNumber-min.html)
 
 ### OperationOutcome
 - [上傳失敗-系統回應訊息-Bad Request範例](OperationOutcome-operationoutcome-badrequest-min.html)

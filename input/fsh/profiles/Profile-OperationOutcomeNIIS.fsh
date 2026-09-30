@@ -1,8 +1,8 @@
 Profile:        OperationOutcomeNIIS
 Parent:         OperationOutcome
 Id:             operationoutcome-niis
-Title:          "系統回應訊息（OperationOutcome NIIS）"
-Description:    "此系統回應訊息（OperationOutcome NIIS）Profile說明本IG如何進一步定義FHIR的 OperatiOnoutcome Resource，以呈現系統回應訊息之資料"
+Title:          "系統回應訊息(OperationOutcome NIIS)"
+Description:    "此系統回應訊息(OperationOutcome NIIS)Profile說明本IG如何進一步定義FHIR的 OperatiOnoutcome Resource，以呈現系統回應訊息之資料"
 * ^version = "0.0.1"
 * issue 1..1 MS
 * issue.details 1..1 MS
