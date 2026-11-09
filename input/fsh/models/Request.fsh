@@ -1,8 +1,8 @@
 Logical: NIISRequestModel
 Id: NIISRequestModel
 Title: "全國性預防接種資訊登錄與上傳(Request)之資料模型"
-Description: "全國性預防接種資訊登錄與上傳實作指引(Request)之資料模型"
-* ^version = "0.0.1"
+Description: "全國性預防接種資訊系統實作指引(Request)之資料模型"
+* ^version = "1.0.0"
 
 * patient 1..1 BackboneElement "個案資訊" "個案資訊"
 * patient.caseNumber 1..1 string "個案編號" "個案編號"

@@ -2,7 +2,7 @@ Logical: NIISResponseModel
 Id: NIISResponseModel
 Title: "全國性預防接種資訊登錄與上傳回應(NIIS Response)之資料模型"
 Description: "全國性預防接種資訊登錄與上傳回應(NIIS Response)之資料模型"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 * timestamp 1..1 string "時間戳記" "時間戳記"
 * statusCode 1..1 string "交易狀態代碼" "交易狀態代碼"

@@ -3,7 +3,7 @@ Parent: TWCoreOrganization
 Id: organization-hosp-reporting-niis
 Title: "合約院所(Organization Hosp Reporting NIIS)"
 Description: "此合約院所(Organization Hosp Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-機構(TW Core Organization)Profile以呈現全國性預防接種之合約院所。"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 * identifier 1..1 MS
 * identifier ^short = "合約院所十碼章"

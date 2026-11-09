@@ -9,7 +9,7 @@ Description: "臺灣衛生福利部疾管署NIIS系統「系統回應訊息」�
 * ^caseSensitive = true
 * ^content = #complete
 * ^date = "2026-08-15"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 * ^experimental = false
 
 * #I00000 "作業完成"

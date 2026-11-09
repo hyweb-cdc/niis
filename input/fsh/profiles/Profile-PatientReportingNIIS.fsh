@@ -3,7 +3,7 @@ Parent: TWCorePatient
 Id: patient-reporting-niis
 Title: "個案資料(Patient Reporting NIIS)"
 Description: "此個案資料(Patient Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-病患(TW Core Patient) Profile以呈現全國性預防接種資訊之個案基本資料。"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 * identifier[medicalRecord] 0..0
 * identifier 1..1

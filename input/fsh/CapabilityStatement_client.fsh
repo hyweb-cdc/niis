@@ -2,7 +2,7 @@ Instance: CapabilityStatementNIISClient
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://twniis.cdc.gov.tw/twniis/CapabilityStatement/CapabilityStatementNIISClient"
-* version = "0.0.1"
+* version = "1.0.0"
 * name = "CapabilityStatementNIISClient"
 * title = "全國性預防接種資訊登錄與上傳-用戶端(NIIS Client)"
 * status = #active
@@ -15,7 +15,7 @@ Usage: #definition
 * format[+] = #json
 * patchFormat = #application/json-patch+json
 * implementationGuide = "https://twniis.cdc.gov.tw/twniis/ImplementationGuide/tw.gov.mohw.cdc.twniis"
-* description = "全國性預防接種資訊登錄與上傳實作指引(NIIS IG)用戶端(Client)之能力聲明"
+* description = "全國性預防接種資訊系統實作指引(NIIS IG)用戶端(Client)之能力聲明"
 * rest.mode = #client
 * rest.documentation = "全國性預防接種資訊登錄與上傳-用戶端(NIIS Client)建議應該(SHOULD)支援讀取、查詢、新增、修改及刪除本實作指引所定義的一個或多個Profile(s)。"
 

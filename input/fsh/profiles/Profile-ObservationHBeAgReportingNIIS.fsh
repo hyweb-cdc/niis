@@ -3,7 +3,7 @@ Parent: TWCoreObservationLaboratoryResult
 Id: observation-HBeAg-reporting-niis
 Title: "HBeAg檢驗檢查(Observation HBeAg Reporting NIIS)"
 Description: "此HBeAg檢驗檢查(Observation HBeAg Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查(TW Core Observation Laboratory Result)Profile以呈現全國性預防接種資訊之HBeAg檢驗檢查資料。"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 * category 1..1
 

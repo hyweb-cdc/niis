@@ -9,7 +9,7 @@ Description: "臺灣衛生福利部疾管署NIIS系統「B肝抗原檢驗」代�
 * ^caseSensitive = true
 * ^content = #complete
 * ^date = "2026-08-15"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 * ^experimental = false
 
 * #HBsAg "HBsAg"

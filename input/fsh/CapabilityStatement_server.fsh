@@ -2,7 +2,7 @@ Instance: CapabilityStatementNIISServer
 InstanceOf: CapabilityStatement
 Usage: #definition
 * url = "https://twniis.cdc.gov.tw/twniis/CapabilityStatement/CapabilityStatementNIISServer"
-* version = "0.0.1"
+* version = "1.0.0"
 * name = "CapabilityStatementNIISServer"
 * title = "全國性預防接種資訊登錄與上傳-伺服端(NIIS Server)"
 * status = #active
@@ -15,7 +15,7 @@ Usage: #definition
 * format[+] = #json
 * patchFormat = #application/json-patch+json
 * implementationGuide = "https://twniis.cdc.gov.tw/twniis/ImplementationGuide/tw.gov.mohw.cdc.twniis"
-* description = "全國性預防接種資訊登錄與上傳實作指引(NIIS IG)伺服端(Server)之能力聲明"
+* description = "全國性預防接種資訊系統實作指引(NIIS IG)伺服端(Server)之能力聲明"
 * rest.mode = #server
 * rest.documentation = "全國性預防接種資訊登錄與上傳-伺服端(NIIS Server)必須(SHALL)：(1)支援本實作指引中所有profiles；(2)根據FHIR規範實作RESTful；(3)回傳適當狀態碼，包括Status 400無效參數(invalid parameter)、Status 401/4xx未經授權的請求(unauthorized request)、Status 403未充分授權的資料存取範圍(insufficient permission scope)、Status 404未知的resource(unknown resource)；(4)支援JSON格式；(5)可識別每個新增到Server的實例(instance)之meta.profile是否為NIIS Profiles Defining URL，並確認實例是否依循Profile製作。全國性預防接種資訊登錄與上傳-伺服端建議應該(SHOULD)支援XML格式。"
 

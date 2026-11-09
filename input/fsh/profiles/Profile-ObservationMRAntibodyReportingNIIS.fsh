@@ -3,7 +3,7 @@ Parent: TWCoreObservationLaboratoryResult
 Id: observation-MRAntibody-reporting-niis
 Title: "麻疹／德國麻疹抗體檢驗檢查(Observation MRAntibody Reporting NIIS)"
 Description: "MR 代表 Measles／Rubella(麻疹／德國麻疹)。此麻疹／德國麻疹抗體檢驗檢查(Observation MRAntibody Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-實驗室檢驗檢查(TW Core Observation Laboratory Result)Profile以呈現全國性預防接種資訊之麻疹／德國麻疹抗體檢驗檢查資料。"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 * category 1..1
 

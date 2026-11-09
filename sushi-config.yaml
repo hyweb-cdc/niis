@@ -6,10 +6,10 @@
 id: tw.gov.mohw.cdc.twniis
 canonical: https://twniis.cdc.gov.tw/twniis
 name: TWNIIS
-title: "全國性預防接種資訊登錄與上傳實作指引"
-description: 全國性預防接種資訊登錄與上傳實作指引
+title: "全國性預防接種資訊系統實作指引"
+description: 全國性預防接種資訊系統實作指引
 status: active # draft | active | retired | unknown
-version: 0.0.1
+version: 
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use

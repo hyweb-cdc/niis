@@ -3,7 +3,7 @@ Parent: TWCoreDiagnosticReport
 Id: diagnosticReport-reporting-niis
 Title: "檢驗報告(DiagnosticReport Reporting NIIS)"
 Description: "此檢驗報告(DiagnosticReport Reporting NIIS)Profile 說明本IG如何進一步定義臺灣核心-診斷報告(TW Core DiagnosticReport)Profile以呈現全國性預防接種資訊之檢驗報告。"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 
 
 * identifier 1..1 MS

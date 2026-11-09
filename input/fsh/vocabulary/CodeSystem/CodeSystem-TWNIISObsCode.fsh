@@ -10,7 +10,7 @@ Description: "臺灣衛生福利部疾管署NIIS系統「檢驗相關資訊」�
 * ^caseSensitive = true
 * ^content = #complete
 * ^date = "2026-08-15"
-* ^version = "0.0.1"
+* ^version = "1.0.0"
 * ^experimental = false
 
 * #預產期 "預產期"
