@@ -9,7 +9,7 @@ name: TWNIIS
 title: "全國性預防接種資訊系統實作指引"
 description: 全國性預防接種資訊系統實作指引
 status: active # draft | active | retired | unknown
-version: 
+version: 1.0.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2026+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
